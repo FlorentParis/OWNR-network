@@ -1,4 +1,5 @@
 if(document.body.clientWidth > 425){
+    document.body.style.overflow = 'hidden';
     let div = document.createElement('div');
     let span = document.createElement('span');
     div.id = "displayNotValid";

@@ -1,0 +1,64 @@
+#home{
+    height: 100vh;
+    position: relative;
+}
+#home > div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 85%;
+}
+#logoHome{
+    width: 50%;
+}
+#author{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    padding: 20px 16px;
+}
+#author > img{
+    height: 28px;
+    width: 28px;
+}
+#author > div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+#author > div:last-of-type > span:first-of-type{
+    font-size: 13px;
+    font-weight: 700;
+}
+#author > div:last-of-type > span:last-of-type{
+    font-size: 11px;
+}
+#buttonContainer{
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+#buttonContainer > button{
+    width: 40%;
+    height: 50%;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 13px;
+    font-family: 'Roboto';
+}
+#buttonContainer > button:first-of-type{
+    border: 2px solid #000;
+}
+#buttonContainer > button:last-of-type{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}

@@ -2,4 +2,7 @@
 @import "./global/fonts.css";
 @import "./global/global.css";
 
-@import "./pages/";
+/* Connexion */
+@import "./pages/connexion/connexion.css";
+@import "./pages/connexion/login.css";
+@import "./pages/connexion/register.css";
