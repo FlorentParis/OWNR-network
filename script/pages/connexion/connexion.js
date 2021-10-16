@@ -10,11 +10,11 @@ class Connexion extends React.Component {
     }
 
     login() {
-        console.log(this);
+        displayLogin();
     }
 
     register() {
-        console.log('test');
+        displayRegister();
     }
 
     render() {
@@ -47,13 +47,17 @@ class Connexion extends React.Component {
 
 }
 
-getPosts().then(function(datas) {
+function displayConnexion() {
+    getPosts().then(function(datas) {
 
-    let alea = datas[Math.floor(Math.random() * datas.length)];
+        let alea = datas[Math.floor(Math.random() * datas.length)];
+        
+        ReactDOM.render(
+            <Connexion data={alea}/>,
+            document.querySelector('#render')
+        );
     
-    ReactDOM.render(
-        <Connexion data={alea}/>,
-        document.querySelector('#render')
-    );
+    });
+}
 
-});
+displayConnexion();

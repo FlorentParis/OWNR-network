@@ -7,3 +7,6 @@ if(document.body.clientWidth > 425){
     div.append(span);
     document.body.prepend(div);
 }
+
+let myDatasUsers = localStorage;
+let userActuel;

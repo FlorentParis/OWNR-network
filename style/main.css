@@ -4,5 +4,4 @@
 
 /* Connexion */
 @import "./pages/connexion/connexion.css";
-@import "./pages/connexion/login.css";
-@import "./pages/connexion/register.css";
+@import "./pages/connexion/login_register.css";

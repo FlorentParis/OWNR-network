@@ -1,0 +1,35 @@
+#connexionContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+#connexionContainer > img{
+    height: 11px;
+    width: 11px;
+}
+#connexionContainer > span{
+    font-size: 36px;
+    font-family: 'Comfortaa';
+}
+#connexionContainer > form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+#connexionContainer > form > input{
+    border: 2px solid #000;
+    padding: 17px;
+    font-size: 15px;
+}
+#connexionContainer > form > button {
+    height: 52px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    letter-spacing: 0.04em;
+}
