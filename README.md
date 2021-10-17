@@ -17,7 +17,7 @@ Il n'y a besoin de rien de plus qu'un serveur local afin de faire tourner le sit
 
 ## Choix techniques
 
-J'ai choisi d'utiliser React afin de développer cet exercice, cela à était fort utile pour gérer l'affichage des données recupéré depuis le fichier JSON. Je fait le choix de ne pas utiliser d'autres technologies, autres que HTML/CSS/JS vanilla..., parce que cela ne fait que 2 semaines que j'apprends a utiliser React, et je preferais me concentrer sur ce dernier. Si j'avais effectuer ce test non pas maintenant mais dans quelques semaines, j'aurais peut-être fait le choix de expérimenter une nouvelle techno, je pense par exemple à Sass.
+J'ai choisi d'utiliser React afin de développer cet exercice, cela a été fort utile pour gérer l'affichage des données récupéré depuis le fichier JSON. J'ai fait le choix de ne pas utiliser d'autres technologies, autres que HTML/CSS/JS vanilla..., parce que cela ne fait que 2 semaines que j'apprends à utiliser React, et je préférais me concentrer sur ce dernier. Si j'avais effectué ce test non pas maintenant mais dans quelques semaines, j'aurais peut-être fait le choix d'expérimenter une nouvelle techno, je pense par exemple à Sass.
 
 ## Temps utilisé
 
@@ -26,4 +26,8 @@ Date et Heure à laquelle j'ai fini cet exercice : ~~~~
 
 ## Bilan de l'exercice
 
+Je suis très content d'avoir pu faire cette intégration de maquettes, cela m'a permis de continuer à pratiquer du React. Je suis tout de même un peu déçu de ne pas avoir pu finir ce travail totalement, avec les autres tests techniques que j'avais à faire pour d'autres entreprises, et les imprévus du week-end, j'ai été un peu limité. 
+
 ## Lien vers l'application
+
+https://photo-ownr.netlify.app/
