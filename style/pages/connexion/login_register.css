@@ -1,5 +1,5 @@
 #connexionContainer{
-    height: 100vh;
+    height: calc(100vh - 32px);
     display: flex;
     flex-direction: column;
     row-gap: 32px;
@@ -32,4 +32,10 @@
     font-weight: 900;
     font-family: 'Roboto';
     letter-spacing: 0.04em;
+}
+#connexionContainer > p {
+    font-size: 13px;
+}
+#connexionContainer > p a{
+    color: #000;
 }

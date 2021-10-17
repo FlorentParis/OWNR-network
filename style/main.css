@@ -5,3 +5,6 @@
 /* Connexion */
 @import "./pages/connexion/connexion.css";
 @import "./pages/connexion/login_register.css";
+
+/* Discover */
+@import "./pages/discover/discover.css";

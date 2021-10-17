@@ -97,6 +97,7 @@ function displayRegisterPseudo(user) {
                 allUsers.push(user);
                 localStorage.setItem('myDatasUsers', JSON.stringify(allUsers));
                 userActuel = user;
+                displayDiscover();
             }else{
                 let allUsers = [];
                 allUsers.push(user);
@@ -118,6 +119,7 @@ function displayRegisterPseudo(user) {
                         <input type="text" placeholder="Pseudonyme" onChange={this.changePseudo}/>
                         <button type="submit">NEXT</button>
                     </form>
+                    <p>By signing up, you agree to Photo’s <a href="https://en.wikipedia.org/wiki/Terms_of_service" target="_blank">Terms of Service</a> and <a href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">Privacy Policy</a>.</p>
                 </div>
             </div>
         }

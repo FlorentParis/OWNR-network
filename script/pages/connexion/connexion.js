@@ -4,9 +4,9 @@ class Connexion extends React.Component {
         super(props);
         
         this.name = this.props.data.user;
-        this.pp = "assets/" + this.props.data.pp;
+        this.pp = this.props.data.pp;
         this.id = this.props.data.id;
-        this.img = "assets/" + this.props.data.pic[0];
+        this.img = this.props.data.pic[0];
     }
 
     login() {

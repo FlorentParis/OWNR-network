@@ -1,0 +1,82 @@
+#containerDiscover > div{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+#SliderDiscover #titleDiscover{
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    padding-bottom: 32px;
+}
+#containerDiscover .titleSection{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+#containerSlider{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    column-gap: 16px;
+}
+.imageSlideContainer{
+    height: calc(100vw - 32px);
+    width: calc(100vw - 32px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.imageSlideContainer > img{
+    min-width: 100%;
+}
+.legendSlide{
+    display: flex;
+    padding-bottom: 16px;
+}
+.legendSlide > div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    justify-content: center;
+}
+.legendSlide > div > span:first-of-type{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+}
+.legendSlide > div > span:last-of-type{
+    font-size: 11px;
+    line-height: 13px;
+}
+#containerBrowse{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+#containerBrowse > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+#containerBrowse img{
+    width: 100%;
+}
+#containerDiscover  #btnMore{
+    border: 2px solid #000;
+    width: 100%;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    font-weight: 900;
+    font-family: 'Roboto';
+}

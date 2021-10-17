@@ -2,49 +2,49 @@
     {
         "user": "Pawel Czerwinski",
         "id": "@pawel_czerwinski",
-        "pp": "./img/pp/pawel.png",
+        "pp": "assets/img/pp/pawel.png",
         "pic": [
-            "./img/pic/pic15.png"
+            "assets/img/pic/pic15.png"
         ]
     },
     {
         "user": "Ridhwan Nordin",
         "id": "@ridzjcob",
-        "pp": "./img/pp/ridhwan.png",
+        "pp": "assets/img/pp/ridhwan.png",
         "pic": [
-            "./img/pic/pic1.png"
+            "assets/img/pic/pic1.png"
         ]
     },
     {
         "user": "Clem Onojeghuo",
         "id": "@clemono2",
-        "pp": "./img/pp/clem.png",
+        "pp": "assets/img/pp/clem.png",
         "pic": [
-            "./img/pic/pic2.png"
+            "assets/img/pic/pic2.png"
         ]
     },
     {
         "user": "Jon Tyson",
         "id": "@jontyson",
-        "pp": "./img/pp/jon.png",
+        "pp": "assets/img/pp/jon.png",
         "pic": [
-            "./img/pic/pic3.png"
+            "assets/img/pic/pic3.png"
         ]
     },
     {
         "user": "Simon Zhu",
         "id": "@smnzhu",
-        "pp": "./img/pp/simon.png",
+        "pp": "assets/img/pp/simon.png",
         "pic": [
-            "./img/pic/pic4.png"
+            "assets/img/pic/pic4.png"
         ]
     },
     {
         "user": "Angelo Pantazis",
         "id": "@angelopantazis",
-        "pp": "./img/pp/angelo.png",
+        "pp": "assets/img/pp/angelo.png",
         "pic": [
-            "./img/pic/pic8.png"
+            "assets/img/pic/pic8.png"
         ]
     }
 ]
