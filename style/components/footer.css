@@ -1,0 +1,35 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+}
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+footer button {
+    background-color: #fff;
+    border: none;
+}
+#add{
+    background: linear-gradient(202.17deg, #FF00D6 8.58%, #FF4D00 91.42%);
+    border-radius: 20px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#add > span{
+    width: 13px;
+    height: 1px;
+    background-color: #fff;
+}
+#add > span:last-of-type{
+    transform: rotateZ(90deg);
+    position: absolute;
+}

@@ -77,6 +77,7 @@ function displayDiscover() {
             <Discover users={datas}/>,
             document.querySelector('#render')
         );
+        displayFooter();
 
     });
 }
