@@ -28,6 +28,6 @@ Date et Heure à laquelle j'ai fini cet exercice : ~~~~
 
 Je suis très content d'avoir pu faire cette intégration de maquettes, cela m'a permis de continuer à pratiquer du React. Je suis tout de même un peu déçu de ne pas avoir pu finir ce travail totalement, avec les autres tests techniques que j'avais à faire pour d'autres entreprises, et les imprévus du week-end, j'ai été un peu limité. 
 
-## Lien vers l'application
+## Lien vers le site hébergé
 
 https://photo-ownr.netlify.app/
