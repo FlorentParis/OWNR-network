@@ -8,6 +8,7 @@
 
 /* Discover */
 @import "./pages/discover/discover.css";
+@import "./pages/discover/image.css";
 
 /* Footer */
 @import "./components/footer.css";

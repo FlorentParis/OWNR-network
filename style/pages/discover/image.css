@@ -1,0 +1,56 @@
+#imgFull #imgContainer{
+    z-index: 5;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+#imgContainer #imgInfos{
+    padding: 40px 16px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #000000 0.45%, rgba(196, 196, 196, 0) 100%);
+}
+#imgInfos > div{
+    display: flex;
+}
+#imgContainer img{
+    height: 28px;
+    width: 28px;
+}
+#infosContent{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-left: 8px;
+}
+#infosContent #name{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+}
+#infosContent #id{
+    font-size: 11px;
+    line-height: 13px;
+}
+#imgContainer #close{
+    background-color: transparent;
+    border: none;
+    transform: rotateZ(45deg);
+    position: relative;
+    padding-right: 25px;
+}
+#imgContainer #close span{
+    height: 1px;
+    width: 15px;
+    background-color: #fff;
+    position: absolute;
+}
+#imgContainer #close span:first-of-type{
+    transform: rotateZ(90deg);
+}

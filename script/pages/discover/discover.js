@@ -7,13 +7,20 @@ class Discover extends React.Component {
         this.browse = this.createBrowse();
     }
 
+    displayImg(src) {
+        ReactDOM.render(
+            <DisplayImage src={src}/>,
+            document.querySelector('#imgFull')
+        );
+    }
+
     createSlides() {
         const listSlides = [];
 
         for(let i = 1; i < 5; i++) {
             let slide = <div class="slide">
                 <div class="imageSlideContainer">
-                    <img src={this.props.users[i].pic[0]} alt="" />
+                    <img src={this.props.users[i].pic[0]} alt="" onClick={this.displayImg.bind(this, this.props.users[i])}/>
                 </div>
                 <div class="legendSlide">
                     <img src={this.props.users[i].pp} alt="" />
@@ -33,9 +40,9 @@ class Discover extends React.Component {
         const listPic2 = [];
         for(let i = 5; i < 15; i++){
             if(i % 2 != 0){
-                listPic.push(<img src={"assets/img/pic/pic" + i + ".png"} alt="" />);
+                listPic.push(<img src={"assets/img/pic/pic" + i + ".png"} alt="" onClick={this.displayImg.bind(this, "assets/img/pic/pic" + i + ".png")}/>);
             }else{
-                listPic2.push(<img src={"assets/img/pic/pic" + i + ".png"} alt="" />);
+                listPic2.push(<img src={"assets/img/pic/pic" + i + ".png"} alt="" onClick={this.displayImg.bind(this, "assets/img/pic/pic" + i + ".png")}/>);
             }
         }
         return <div id="containerBrowse">
@@ -78,6 +85,5 @@ function displayDiscover() {
             document.querySelector('#render')
         );
         displayFooter();
-
     });
 }
